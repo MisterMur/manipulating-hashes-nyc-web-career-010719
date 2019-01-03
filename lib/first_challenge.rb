@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   # contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
-  contacts.each do |key,value|
+  contacts.collect do |key,value|
     if key == "Freddy Mercury"
       value.delete("strawberry")
     end
