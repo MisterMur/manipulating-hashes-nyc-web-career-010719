@@ -14,7 +14,10 @@ def first_challenge
   }
 
   #your code here
-  contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
+  # contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
+  # contacts.each do |key,value|
+  #   if key == "Freddy M"
+  # end
 
   #remember to return your newly altered contacts hash!
   contacts
