@@ -17,7 +17,7 @@ def first_challenge
   # contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
   contacts.each do |key,value|
     if key == "Freddy Mercury"
-      :favorite_icecream_flavors.delete("strawberry")
+      value.delete("strawberry")
     end
   end
   # contacts["Freddy Mercury"].delete_if {|key,value| :favorite_icecream_flavors >= "strawberry"}
