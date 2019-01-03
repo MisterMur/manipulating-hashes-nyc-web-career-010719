@@ -18,6 +18,7 @@ def first_challenge
   contacts.each do |key,value|
     if key == "Freddy Mercury"
       :favorite_icecream_flavors.delete("strawberry")
+    end
   end
   # contacts["Freddy Mercury"].delete_if {|key,value| :favorite_icecream_flavors >= "strawberry"}
 
